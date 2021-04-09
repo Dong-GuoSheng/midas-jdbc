@@ -1,0 +1,37 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# VSCode
+.vscode
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Eclipse TestNG plugin
+test-output/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+out/
+
+# Maven
+.antlr/
+log/
+target/
+
+# Generated files
+src/main/java/cn/synway/bigdata/midas/jdbc/parser/*CharStream.java
+src/main/java/cn/synway/bigdata/midas/jdbc/parser/MidasSqlParser*.java
+src/main/java/cn/synway/bigdata/midas/jdbc/parser/Token*.java
+src/main/java/cn/synway/bigdata/midas/jdbc/parser/ParseException.java
+
+# Shell scripts
+*.sh
